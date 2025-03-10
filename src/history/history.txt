@@ -1,0 +1,5 @@
+Orginal: 22000CLP ===> Result: 23.67USD , Date: 9/3/2025
+Orginal: 80000CLP ===> Result: 86.08USD , Date: 9/3/2025
+Orginal: 34000CLP ===> Result: 36.62USD , Date: 10/3/2025
+Orginal: 300000CLP ===> Result: 323.1USD , Date: 10/3/2025
+Orginal: 230000CLP ===> Result: 247.71USD , Date: 10/3/2025
