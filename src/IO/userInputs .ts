@@ -10,12 +10,10 @@ export const askQuestion = (question: string): Promise<number> => {
     const ask = () => {
       process.stdout.write(question);
       reader.question("", (userResponse) => {
-
-
-
-
-
-        if (isNaN(+userResponse) || ![1,2,3,4,5,6,7,8].includes(+userResponse)) {
+        if (
+          isNaN(+userResponse) ||
+          ![1, 2, 3, 4, 5, 6, 7, 8].includes(+userResponse)
+        ) {
           console.log("\nDebe ingresar un numero de la lista.");
           ask();
         } else {

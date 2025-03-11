@@ -28,13 +28,11 @@ export function save({
 }
 
 export function readHistory() {
-
-  if(!fs.existsSync(filePath)){
+  if (!fs.existsSync(filePath)) {
     console.log("No existe historial de cambios");
-  }else {
+  } else {
     const file = fs.readFileSync(filePath);
 
     console.log(file.toString());
   }
-  
 }
