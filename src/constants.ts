@@ -25,9 +25,9 @@ Elige el numero de la moneda original
 
 6) USD - Dólar estadounidense
 
-9) Ver Historial
+7) Ver Historial
 
-10) Salir
+8) Salir
 
 `;
 
@@ -57,3 +57,11 @@ export const CURRENCY_OPTIONS: { [key: number]: keyof Conversion_rate } = {
   6: "USD",
 };
 
+export const LAST_QUESTION = `
+Quieres calcular otra moneda?
+Elije una opción
+
+1) Si
+2) No
+
+`;
